@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+
+.roundedcornr_box {
+	margin-top:10px;
+ 	margin-left:5px; 
+	background: url(/img/roundedborders/roundedcornr_tl.png) no-repeat top left;
+}
+.roundedcornr_top {
+	background: url(/img/roundedborders/roundedcornr_tr.png) no-repeat top right;
+}
+.roundedcornr_bottom {
+	background: url(/img/roundedborders/roundedcornr_bl.png) no-repeat bottom left;
+}
+.roundedcornr_bottom div {
+	background: url(/img/roundedborders/roundedcornr_br.png) no-repeat bottom right;
+}
+.roundedcornr_content {
+	background: url(/img/roundedborders/roundedcornr_r.png) top right repeat-y;
+}

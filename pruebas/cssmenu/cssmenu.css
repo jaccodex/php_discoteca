@@ -1,0 +1,79 @@
+/* 
+    Document   : cssmenu
+    Created on : 29-sep-2011, 18:37:48
+    Author     : jack
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+body{
+font-family: helvetica, arial, sans-serif;
+background-color:#e3e3e3;
+}
+#nav{
+background-color:#e5e5e5;
+float:left;
+margin:0;
+padding:0;
+border:1px solid white;
+border-bottom:none;
+}
+
+#nav li, #nav li a{
+float:left;
+list-style:none;
+position:relative;
+}
+
+#nav li a{
+padding:1em 2em;
+text-decoration:none;
+background-color:#292929;
+color:white;
+border-right:1px solid #3c3c3c;
+border-left:1px solid #232323;
+}
+
+#nav li a:hover{
+background-color:grey;
+}
+
+/* SUBMENU */
+#nav li ul{
+display:none;
+position:absolute;
+left:0;
+top:100%;
+margin:0;
+padding:0;
+}
+#nav li:hover > ul{
+display:block;
+
+}
+#nav li ul li, #nav li ul li a{
+float:none;
+}
+#nav li ul li a{
+width:100px;
+display:block;
+}
+
+
+/* SUBSUBMENU */
+
+#nav li ul li ul{
+display:none;
+}
+#nav li ul li:hover ul{
+left:100%;
+top:0
+}

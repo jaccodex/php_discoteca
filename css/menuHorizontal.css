@@ -1,0 +1,61 @@
+/*NAVIGATOR*/
+.menuHorizontal{
+	display:block;
+	font-size:13px;	
+	width:auto;
+	margin-top:7px;
+	margin-bottom:30px;
+	margin-left:12px;
+	margin-right:auto;
+	padding-top:3px;
+	padding-bottom:2px;
+}
+
+.menuHorizontal ul{
+	display: inline-block;
+	width:auto;
+	padding:0;
+
+
+}
+
+.menuHorizontal ul li{
+	display:inline;
+	list-style:none;
+	text-align:center;
+}
+
+.menuHorizontal ul li a {
+	display:inline;
+	text-decoration:none;
+	color:#fff;
+	background-color:#4a6c9a;
+	background:-moz-linear-gradient(top,#89a0bf,#4a6c9a);
+	background:-webkit-gradient(linear,left top,left bottom,from(#89a0bf),to(#4a6c9a));
+	font-weight:bold;
+	padding:5px 5px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+    -webkit-border-radius:5px;
+}
+
+.menuHorizontal ul li a span{
+	/*color:#808080;*/
+}
+
+.menuHorizontal ul li a:hover{
+	display:inline;
+	background:#fff;
+	color:#4a6c9a;
+	text-decoration:underline;
+} 
+.menuHorizontal ul li a:hover span{
+	/*color:#fff;*/
+}
+
+.menuHorizontal ul li a.actual{
+	background-color:#516e95;
+}
+.menuHorizontal ul li a.actual span{
+	color:#fff;
+}

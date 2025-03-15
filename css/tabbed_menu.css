@@ -1,0 +1,48 @@
+#content .menuConTabs{
+	
+
+}
+#content .bodyConTabs{
+
+	border:1px solid #516e95;
+	border-top-right-radius:5px;
+}
+#content .menuConTabs ul{
+	display:flex;
+	flex-direction: row;
+	margin:0;
+	padding:0;
+}
+#content .menuConTabs ul li{
+
+	list-style:none;
+	border:1px #516e95 solid;
+	border-top-right-radius:5px;
+	border-top-left-radius:5px;
+	margin-right:5px;
+	/*background-color: #EAEFF2;*/
+	padding:0.5rem;
+}
+#content .menuConTabs ul li.activa{
+	color:#5c5d83;
+	font-weight:bold;
+	border-bottom:none;
+	background-color: #62627c59;
+}
+
+#content .menuConTabs ul li a{
+	width:100%;
+	/*display:block;*/
+	/*color:#808080;*/
+	/*font-weight:bold;*/
+	text-decoration:none;
+	margin-right:5px;
+	padding-left:0;
+	padding-right:0;
+}
+
+#content .menuConTabs ul li a:hover{
+	/*background-color:#bed0e4;
+	color:black;*/
+	text-decoration:underline;
+}

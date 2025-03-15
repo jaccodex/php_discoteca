@@ -1,0 +1,86 @@
+.navigator{
+        font-family: "Myriad Pro",Tahoma,"Trebuchet MS",Georgia,Verdana,Arial,Helvsetica,sans-serif;
+	font-size:10px;	
+	width:100%;
+	margin-top:7px;
+	margin-bottom:2px;
+	padding-top:3px;
+	padding-bottom:2px;
+}
+
+.navigator ul{
+	width:95%;
+	float:left;
+	margin:0;
+ 	margin-left:10px;
+	padding:0;
+}
+
+.navigator ul li{
+	float:left;
+	list-style:none;
+	text-align:center;
+	}
+
+.navigator ul li a {
+	float:left;
+	width:20px;
+	text-decoration:none;
+	background-color:#eaeff2;
+	font-weight:bold;
+	border: 1px solid #808080;
+	margin-left:4px;
+	margin-bottom:1px;
+	padding:5px 5px;
+	-moz-border-radius:5px;	
+        -webkit-border-radius:5px;
+}
+.navigator ul li a:active,
+.navigator ul li a:visited,
+.navigator ul li a:link
+{
+    color:#899AB9;
+}
+
+.navigator ul li span{
+	float:left;
+	width:20px;
+	text-decoration:none;
+        color:#fff;
+	background-color:#516E95;
+	font-weight:bold;
+	border: 1px solid #808080;
+	margin-left:4px;
+	margin-bottom:1px;
+	padding:5px 5px;
+	-moz-border-radius:5px;
+        -webkit-border-radius:5px;
+}
+.navigator p.leyenda{
+    float:left;
+    clear:both;
+    margin-left:15px;
+    font-size:12px;	
+}
+/*
+.navigator ul li a span{
+	color:#808080;
+	margin:0;
+	padding:0;
+}
+
+.navigator ul li a:hover{
+	display:inline;
+	background-color:#6d98ba;
+} 
+.navigator ul li a:hover span{
+	color:#fff;
+}
+
+.navigator ul li a.actual{
+	background-color:#516e95;
+}
+.navigator ul li a.actual span{
+	color:#fff;
+}
+*/

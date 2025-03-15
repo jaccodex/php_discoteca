@@ -1,0 +1,22 @@
+/* CSS Document */
+
+#tipContainer{
+	z-index:2;
+	display:inline;
+	position: absolute;
+
+}
+#tipContainer #tipContent{
+	position:relative;
+	/*left:100px;
+	//top:-20px;
+	//overflow: hidden;*/
+	padding:2px;
+	border:1px solid #7086a4;
+	border-collapse:collapse;
+	background-color:#fff;
+	background:-moz-linear-gradient(top,#fff,#eaeff2);
+	background:-gradient(linear,left top,left bottom,from(#fff),to(#eaeff2));
+	border-radius:5px;
+	
+}

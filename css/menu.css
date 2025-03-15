@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+/*estilos en menu*/
+
+#menu{
+	/*font-family: Tahoma, "Trebuchet MS";*/  
+	font-size: 0.9rem;
+	/*
+	border:1px #316483 solid;
+	border-radius:5px;
+	border-radius:5px;
+	*/
+    padding-top:10px;
+	padding-bottom:5px;
+}
+
+#menu h3{
+    color:#5c5d83;
+    /*
+	background-color:#62627c59;
+	*/
+	background-color:#cacaec59;
+  	height:1.5rem;
+	padding-top:0.4rem;
+	margin-left:2px;
+	margin-right:2px;
+	margin-bottom:5px;
+	text-align:center;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;	
+}
+
+#menu h3.plegado,#menu h3.desplegado{
+	/*
+background-position:right bottom;
+background-repeat:no-repeat;
+*/
+}
+#menu h3.plegado{
+/*background-image:url('/img/chevron-expand.png');*/
+}
+#menu h3.desplegado{
+/*background-image:url('/img/chevron.png');*/
+}
+
+#menu ul{
+	list-style:none;
+	margin-top:0px;
+	margin-bottom:2em;
+	margin-right:2px;
+	margin-left:2px;
+	font-size:14px;
+	-moz-border-radius-bottomleft:5px;
+	-moz-border-radius-bottomright:5px;
+	border:1px #eaeff2 solid;
+	position:relative;
+	bottom:5px;
+}
+
+#menu ul li{
+	/*width:100%;para que funcione en IE*/
+	padding-left:18px;
+	text-align:left;
+	font-weight:normal;
+	background-image:url('/img/radio.png');
+	background-position:left top;
+	background-repeat:no-repeat;
+}
+#menu ul li.actual{
+	background-image:url('/img/radio_checked.png');
+
+}
+
+#menu ul li a:link, 
+#menu ul li a:active, 
+#menu ul li a:visited{
+	display:block;
+	text-decoration:none;
+	/*color:#666699;*/
+}
+
+#menu ul li a:hover{
+	/*background-color:#bed0e4;*/
+	/*color:black;*/
+	font-weight:normal;
+    text-decoration:underline;
+}

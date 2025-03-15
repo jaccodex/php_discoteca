@@ -1,0 +1,176 @@
+.formulario{
+	margin:1rem;
+}
+
+.formulario fieldset {
+	margin-top:10px;
+	margin-bottom:5px;
+	border:1px solid #516e95;
+	border-radius:5px;
+}
+
+.formulario fieldset legend{
+	height:20px;
+	text-align:center;
+	font-size:1.1rem;
+	margin-left:10px;
+	padding:3px 8px;
+	background-color:#c5c3cc;
+	border-radius:5px;
+	}
+
+.formulario p{
+	text-align:left;
+	margin:0.5rem;
+}
+
+.formulario p:has(.submit){
+	text-align:center;
+}
+
+.formulario form{
+
+}
+/*------------------------ LABEL -----------------*/
+.formulario label{
+
+	width:7rem;
+	display:inline-block;
+	text-align:right;
+	height:1.2rem;
+	font-family:inherit;
+	font-weight:normal;
+	background-color:#c5c3cc;
+	padding:2px 0 2px 2px;
+  border-top-left-radius:5px;
+	border-bottom-left-radius:5px;
+}
+.formulario .addBanda label{
+	width:5rem;
+}
+.formulario label.titular{
+	/*etiquetas que van centradas y ocupando todo el ancho del form*/
+	width:100%;
+	text-align:center;
+}
+
+.formulario span{
+	margin-left:5px;
+}
+
+.formulario span.texto_fijo{/*texto que el usuario no puede modificar*/
+	margin-top:8px;
+	margin-left:2px;
+}
+
+/*------------------------ INPUT -----------------*/
+.formulario input{
+	font-family:inherit;
+	height:1.2rem;
+	margin-top:3px;
+	margin-left:2px;
+	margin-right:2px;
+	background-color:#eaeff2;
+	border:1px solid #acb9ca;
+}
+/*------------------------ INPUT TEXT-----------------*/
+	/*
+.formulario input.text{
+	float:left;
+	line-height:20px;
+	margin-top:4px;
+	width:40%;
+
+	aprox 20 caracteres
+}*/
+.formulario input.muyCorto{
+	width:10%;/*aprox 5 caracteres*/
+}
+.formulario input.corto{
+	width:20%;/*aprox 10 caracteres*/
+}
+.formulario input.largo{
+        margin-top:4px;
+	width:60%;/*aprox 30 caracteres*/
+}
+/*------------------------ INPUT RADIO -----------------*/
+.formulario span.grupo_radio{
+	margin-top:5px;
+	display:inline;
+	color:#000;
+	background-color:#bed0e4;
+}
+.formulario input.radio{
+	background-color:transparent;
+}
+/*------------------------ INPUT SUBMIT -----------------*/
+.formulario input.submit{
+  height:2.0rem;
+	text-align:center;
+	margin:10px auto 15px auto;
+	font-weight:bold;
+	color:#fff;
+	background-color:#516e95;
+	border-radius:5px;
+  padding:5px;
+}
+
+/*------------------------ INPUT SELECT-----------------*/
+.formulario select{
+	/*font-family:inherit;*/
+	height:1.2rem;
+	margin-top:4px;
+	margin-left:2px;
+	background-color:#eaeff2;
+	border:1px solid #acb9ca;
+}
+
+.formulario select.siNo{/* select con opcion Si/no */
+	width:4em;
+}
+.formulario select option{
+	font-family: Helvetica, Arial, serif;
+
+}
+
+.formulario textarea{
+	font-size:11px;
+}
+
+/*------------------------ INPUT CHECK-----------------*/
+.formulario .listaCheck{
+	width:80%;
+	margin:auto;
+	color:#000;
+	background-color:#eaeff2;
+}
+.formulario .listaCheck ul{
+	margin:0;
+	padding:0;
+	width:100%;
+	padding-top:5px;
+	padding-bottom:5px;
+	float:left;
+	list-style:none;
+	background-color:#eaeff2;
+
+}
+.formulario .listaCheck ul li{
+	color:#000;
+}
+.formulario .listaCheck ul li input.check{
+	width:2em;
+}
+.formulario .listaCheck ul li span.elementoListaCheck{
+	height:15px;
+	margin:0;
+	padding:0;
+	margin-top:2px;
+}
+/*--------- TEXTAREA --------*/
+.formulario textarea{
+	width:95%;
+	margin:2px;
+	color:#000;
+	background-color:#eaeff2;
+}

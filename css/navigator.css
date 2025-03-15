@@ -1,0 +1,57 @@
+#content .navigator{
+    font-family: "Myriad Pro",Tahoma,"Trebuchet MS",Georgia,Verdana,Arial,Helvsetica,sans-serif;
+    font-size:12px;
+    height:25px;
+    margin:10px auto 2px auto;
+    padding:3px 0px 2px 0px;
+}
+
+#content p.leyendaNavigator{
+    font-size:12px;
+    text-align:center;
+    margin:10px auto 0 auto;
+    padding:0;
+}
+
+
+#content .navigator ul{
+    margin:0;
+    padding:0;
+    list-style-type: none;
+    text-align:center;
+    margin-top:10px;
+}
+
+#content .navigator ul li{
+    display:inline;
+    width:25px;
+    font-weight:bold;
+    text-align:center;
+    background-color:#eaeff2;
+    padding:4px 0px;
+    margin:0 0 0 4px;
+    border: 1px solid #808080;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+}
+
+#content .navigator ul li a {
+
+    text-decoration:none;
+    padding:4px;
+
+
+}
+#content .navigator ul li a:active,
+#content .navigator ul li a:visited,
+#content .navigator ul li a:link{
+    color:#899AB9;
+}
+
+#content .navigator ul li.activo{
+    text-align:center;
+    color:#fff;
+    background-color:#516E95;
+    padding:4px;
+
+}
