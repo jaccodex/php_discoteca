@@ -121,7 +121,7 @@ LEFT JOIN temas on (discos.id_disco=temas.id_disco)
 LEFT JOIN companias ON discos.id_compania=companias.id_compania 
 WHERE discos.id_grupo=" . $id_grupo . 
 " GROUP by 1,2,3 
-ORDER BY ano DESC, titulo ASC LIMIT " . $pag*$recordsPerPage . "," . $recordsPerPage;
+ORDER BY ano DESC, titulo DESC LIMIT " . $pag*$recordsPerPage . "," . $recordsPerPage;
 
 $db->setQueryString($strDiscos);
 $discos=$db->execSELECT();
